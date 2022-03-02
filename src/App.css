@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.blink{
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink{
+  0%{
+    opacity: 1.5;
+  }
+  10%{
+    opacity: 0.5;
+  }
+  20%{
+    opacity: 0.5;
+  }
+  30%{
+    opacity: 0.75;
+  }
+  40%{
+    opacity: 1.5;
+  }
+  50%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 0.5;
+  }
+  70%{
+    opacity: 0.5;
+  }
+  80%{
+    opacity: 0.75;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1.5;
+  }
+}
+
+.App-header {
+  background-color: rgb(31, 143, 137);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0%;
+  margin: 0%;
+}
+
+.App-link {
+  color: #000000;
+}
+
+
